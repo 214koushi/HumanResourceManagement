@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test  name="Test Runner-1">
+		<parameter name="BROWSER" value="firefox"></parameter>
+    <classes>
+    <class name="com.practice.Admin_hrHead"/>
+      <class name="com.practice.Empbyhrassis"/>
+      <class name="com.practice.CorpbyhrHead"/>
+      <class name="com.practice.Branch_hrHead"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
